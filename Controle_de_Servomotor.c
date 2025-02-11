@@ -31,15 +31,15 @@ int main() {
     pwm_set_gpio_level(SERVO_PIN, calcular_pwm_duty(2400));
     sleep_ms(5000);
 
-    // Ajusta servo para 90 graus (1470µs)
+    // Ajustar o servo para 90 graus (1470µs)
     pwm_set_gpio_level(SERVO_PIN, calcular_pwm_duty(1470));
     sleep_ms(5000);
 
-    // Ajusta servo para 0 graus (500µs)
+    // Ajustar o servo para 0 graus (500µs)
     pwm_set_gpio_level(SERVO_PIN, calcular_pwm_duty(500));
     sleep_ms(5000);
 
-    // Movimento suave entre 0° e 180°
+    // Movimento suave entre 0° e 180° 
     while (1) {
         for (uint32_t pos = 500; pos <= 2400; pos += 5) {
             pwm_set_gpio_level(SERVO_PIN, calcular_pwm_duty(pos));
