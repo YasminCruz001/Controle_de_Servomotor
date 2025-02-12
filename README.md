@@ -51,3 +51,5 @@ Este projeto implementa o controle de um servomotor utilizando o módulo PWM do 
 3. Observe o movimento do servomotor e a alternância de cores do LED RGB.
 
 ## Vídeo Demonstrativo
+
+[![Vídeo de Demonstração](https://img.shields.io/badge/Assistir-Vídeo-blue)](https://drive.google.com/file/d/1JJt5CDWeYGjGICJzUO-ba_vK6Nmef7oE/view?usp=drive_link)
